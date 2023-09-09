@@ -4,7 +4,7 @@
 
 1). Устанавливаем HAProxy c конфигурацией
  
-[ссылка](https://github.com/NatoshFehn/hw-sflt-01/blob/main/haproxy.cfg)
+[ссылка](https://github.com/NatoshFehn/hw-sflt-02/blob/main/haproxy.cfg)
 
 ```
  sudo apt-get install haproxy
@@ -26,7 +26,7 @@ python3 -m http.server 9999 --bind 0.0.0.0
  
 4). Проверка работоспособности:
 
-![Снимок1](https://github.com/NatoshFehn/hw-sflt-01/blob/main/Снимок1.jpg)
+![Снимок1](https://github.com/NatoshFehn/hw-sflt-02/blob/main/Снимок1.jpg)
 
 
 5). В секции frontend указываем имя хоста, например: myweb.com
@@ -53,7 +53,7 @@ backend web_servers    # секция бэкенд
 
 7). Проверка:
 
-![Снимок2](https://github.com/NatoshFehn/hw-sflt-01/blob/main/Снимок2.jpg)
+![Снимок2](https://github.com/NatoshFehn/hw-sflt-02/blob/main/Снимок2.jpg)
 
 8). Открываем порт 888 для проверки веб-хостов
 
@@ -64,7 +64,7 @@ sudo ufw allow 888
 
 9). HAProxy Statistics
 
-![Снимок3](https://github.com/NatoshFehn/hw-sflt-01/blob/main/Снимок3.jpg)
+![Снимок3](https://github.com/NatoshFehn/hw-sflt-02/blob/main/Снимок3.jpg)
 
 
 
@@ -101,14 +101,14 @@ backend web_servers    # секция бэкенд
 
 HAProxy Statistics
 
-![Снимок4](https://github.com/NatoshFehn/hw-sflt-01/blob/main/Снимок4.jpg)
+![Снимок4](https://github.com/NatoshFehn/hw-sflt-02/blob/main/Снимок4.jpg)
 
 
 
 Конфигурация HAProxy 
-[ссылка](https://github.com/NatoshFehn/hw-sflt-01/blob/main/haproxy_2.cfg)
+[ссылка](https://github.com/NatoshFehn/hw-sflt-02/blob/main/haproxy_2.cfg)
 
 
 Проверяем: все три сервера участвуют в балансировке
 
-![Снимок5](https://github.com/NatoshFehn/hw-sflt-01/blob/main/Снимок5.jpg)
+![Снимок5](https://github.com/NatoshFehn/hw-sflt-02/blob/main/Снимок5.jpg)
